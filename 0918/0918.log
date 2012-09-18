@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.12)  18 SEP 2012 14:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.12)  18 SEP 2012 15:01
 entering extended mode
  %&-line parsing enabled.
 **0918.tex
@@ -28,7 +28,7 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 LaTeX Warning: Unused global option(s):
     [onesided].
 
-(./0918.aux)
+No file 0918.aux.
 \openout1 = `0918.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -47,7 +47,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
- [1
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
@@ -65,11 +65,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
 
  []
 
 [1]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
+
+ []
+
+[2]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -77,7 +96,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 W
+l.55 W
       e first tested the subject on the foriegn system and then on their usu...
 
 Your command was ignored.
@@ -85,34 +104,102 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (17.88837pt too wide) in paragraph at lines 48--49
+Overfull \hbox (17.88837pt too wide) in paragraph at lines 55--57
 \OT1/cmr/m/n/12 tems. The times were recorded on a Sam-sung Galaxy S3 de-fault 
 clock/stopwatch.
  []
 
-[2]
+[3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 89.
+(Font)              <12> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 89.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 89.
- [3] (./0918.aux) ) 
+(Font)              <6> on input line 61.
+ [4]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 ...the other file of this folder 0918_l.pdf}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.100 ...the other file of this folder 0918_l.pdf}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.103 \end{document}
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (2339.19199pt too wide) in paragraph at lines 100--103
+\OT1/cmr/m/it/12 0918$[]\OML/cmm/m/it/12 :pdfOverall; theseresultsillustratethe
+usabilityofbothsystems:Revealedindiscussionwiththesubjects; theyallsaidthatthey
+purchasedtheirApplesystemsreasoningthattheywereeasytolearnanduseandwouldn[]thav
+emanyproblems:ThoughwedidnottestnewAppleusers; thethreeveteranAppleuserssaidtha
+ttheywereconfidentintheirsystemsandwerecomfortableinknowinghowtousetheircompute
+r:WhenquestionedabouttheLinuxsystem; theyestimateditwouldtakemoretimetolearnitt
+hanithadtakenthemtolearntheirApplesystems:[] 
+ []
+
+
+Overfull \hbox (551.34093pt too wide) in paragraph at lines 100--103
+\OML/cmm/m/it/12 Onebigdifferencebetweenthetwosystems; howeveristheeaseofscreen
+shots:TheLinuxboxhadadedicatedscreenshotbutton\OT1/cmr/m/n/12 (\OML/cmm/m/it/12
+ prtsc\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 whereastheApplehasahandfulofshortcuts\O
+T1/cmr/m/n/12 (\OML/cmm/m/it/12 command \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (280.52753pt too wide) in paragraph at lines 100--103
+\OML/cmm/m/it/12 shift \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 4 \OMS/cmsy/m/n/12 
+^^@ \OML/cmm/m/it/12 space:\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 Thoughintheschemeo
+fthings; screenshotsarenotthemostessentialthing; itbreakswiththeguidelinesofsim
+plicity:[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
+
+ []
+
+[5] (./0918.aux) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 100 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 253 strings out of 495061
- 2695 string characters out of 1182621
- 49739 words of memory out of 3000000
+ 251 strings out of 495061
+ 2677 string characters out of 1182621
+ 51739 words of memory out of 3000000
  3505 multiletter control sequences out of 15000+50000
  8848 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 22i,6n,19p,389b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 0918.pdf (4 pages, 67224 bytes).
+ 22i,6n,19p,576b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.p
+fb>
+Output written on 0918.pdf (6 pages, 111688 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
