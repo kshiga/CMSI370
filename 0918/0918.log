@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.12)  14 SEP 2012 22:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.12)  18 SEP 2012 14:23
 entering extended mode
  %&-line parsing enabled.
 **0918.tex
@@ -50,24 +50,67 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-[1] [2] [3] (./0918.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+[1]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 W
+      e first tested the subject on the foriegn system and then on their usu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (17.88837pt too wide) in paragraph at lines 48--49
+\OT1/cmr/m/n/12 tems. The times were recorded on a Sam-sung Galaxy S3 de-fault 
+clock/stopwatch.
+ []
+
+[2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 89.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 89.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 89.
+ [3] (./0918.aux) ) 
 Here is how much of TeX's memory you used:
- 236 strings out of 495061
- 2512 string characters out of 1182621
- 48739 words of memory out of 3000000
- 3494 multiletter control sequences out of 15000+50000
- 6410 words of font info for 23 fonts, out of 3000000 for 9000
+ 253 strings out of 495061
+ 2695 string characters out of 1182621
+ 49739 words of memory out of 3000000
+ 3505 multiletter control sequences out of 15000+50000
+ 8848 words of font info for 31 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  22i,6n,19p,389b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 0918.pdf (4 pages, 59175 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on 0918.pdf (4 pages, 67224 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
