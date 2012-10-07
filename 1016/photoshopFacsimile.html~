@@ -9,7 +9,27 @@
     
     <body>
         <center>
-   
+            <div id = "menuBar" >
+            </div>
+
+            <div id = "currentToolBar">
+            </div>
+
+            <div id = "toolBar" >
+            </div>
+
+            <div id = "workspace" >
+            </div>
+
+
+            <div id = "swatchPalette" >
+            </div>
+
+            <div id = "navigationPalette" >
+            </div>
+
+            <div id = "layersPalette" >
+            </div>
         </center>
     </body>
 </html>
