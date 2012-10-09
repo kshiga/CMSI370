@@ -1,0 +1,59 @@
+/* reset body styles */
+body{
+padding: 0;
+margin: 0;
+background: #666;
+}
+/* style unordered list */
+ul{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+/* style menu items */
+li.topitem{
+float: left;
+position: relative;
+width: 100px;
+padding: 5px;
+background: #eee;
+font: bold 11px Tahoma, Arial, Helvetica, sans-serif;
+color: #000;
+border: 1px solid #000;
+}
+/* position and hide drop-down menu */
+li.topitem ul{
+display: none;
+position: absolute;
+top: 22px;
+left: 0;
+width: 150px;
+background: #fff;
+padding: 0px;
+border-bottom: 1px solid #ccc;
+}
+li > ul{
+top: auto;
+left: auto;
+}
+/* display drop-down menu (add an 'over' class attribute to list items for IE */
+li:hover ul,li.over ul{
+display: block;
+}
+#navbar li li a {
+display: block;
+font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+color: #000;
+padding: 5px;
+height: 15px;
+text-decoration: none;
+border-top: 1px solid #ccc;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+}
+#navbar li li a:hover {
+color: #000;
+background: #eee;
+}
+
+Read more at http://www.devarticles.com/c/a/HTML/Building-a-Drop-Down-Menu-with-Nested-HTML-Lists/2/#xKm3buBe1Ewfozx4.99 
