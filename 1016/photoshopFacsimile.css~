@@ -52,12 +52,4 @@ color: #000;
 background: #eee;
 }
 
-#toolBar{
-float: left;
-position: absolute;
-top: 100px;
-width: 30px;
-padding: 2px;
-}
-
 Read more at http://www.devarticles.com/c/a/HTML/Building-a-Drop-Down-Menu-with-Nested-HTML-Lists/2/#xKm3buBe1Ewfozx4.99 
