@@ -12,179 +12,200 @@
     </head>
     
     <body>
-        <center>
-			<div class = "row-fluid">
-		        <div class = "span12" id = "topBar">
-				    <div span12 id = "menuBar" >
-						<ul id="navbar">
-						<li class="topitem">File
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						<li class="topitem">Edit
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						<li class="topitem">Layer
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						<li class="topitem">Select
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						<li class="topitem">Filter
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						<li class="topitem">Analysis
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						<li class="topitem">3D
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						<li class="topitem">View 
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-		                <li class="topitem">Window 
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						<li class="topitem">Help
-						<ul>
-							<li><a href="#">Sub Item 1</a></li>
-							<li><a href="#">Sub Item 2</a></li>
-							<li><a href="#">Sub Item 3</a></li>
-							<li><a href="#">Sub Item 4</a></li>
-							<li><a href="#">Sub Item 5</a></li>
-						</ul>
-						</li>
-						</ul>
+		<div class = "row-fluid" id = "topBar">
+	        <div class = "span12" id = "menuBar">
+				<ul id="navbar">
+				<li class="topitem">File
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				<li class="topitem">Edit
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				<li class="topitem">Layer
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				<li class="topitem">Select
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				<li class="topitem">Filter
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				<li class="topitem">Analysis
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				<li class="topitem">3D
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				<li class="topitem">View 
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+                <li class="topitem">Window 
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				<li class="topitem">Help
+				<ul>
+					<li><a href="#">Sub Item 1</a></li>
+					<li><a href="#">Sub Item 2</a></li>
+					<li><a href="#">Sub Item 3</a></li>
+					<li><a href="#">Sub Item 4</a></li>
+					<li><a href="#">Sub Item 5</a></li>
+				</ul>
+				</li>
+				</ul>
+			</div>
+
+	        <div id = "currentToolBar">
+	        </div>
+        </div>
 
 
-				    </div>
+        <div class="row-fluid" id = "workspace">
+	        <div class = "span1" id = "toolBar" >
+				<div id = "selectionTool">
+					Selector
 				</div>
+				<div id = "marqueeTool">
+					Marquee
+				</div>
+				<div id = "lassoTool">
+					Lasso
+				</div>
+				<div id = "mWandTool">
+					Magic Wand
+				</div>
+				<div id = "cropTool">
+					Crop
+				</div>
+				<div id = "sliceTool">
+					Slice
+				</div>
+				<div id = "sHealingTool">
+					Spot Healing
+				</div>
+				<div id = "brushTool">
+					Brush
+				</div>
+				<div id = "cStampTool">
+					Clone Stamp
+				</div>
+				<div id = "historyTool">
+					History
+				</div>
+				<div id = "eraserTool">
+					Eraser
+				</div>
+				<div id = "gradientTool">
+					Gradient
+				</div>
+				<div id = "blurTool">
+					Blur
+				</div>
+				<div id = "dodgeTool">
+					Dodge
+				</div>
+				<div id = "penTool">
+					Pen
+				</div>
+				<div id = "textTool">
+					Text
+				</div>
+				<div id = "pSelectTool">
+					Path Selection
+				</div>
+				<div id = "shapeTool">
+					Shape
+				</div>
+				<div id = "eyedropTool">
+					Eyedropper
+				</div>
+				<div id = "handTool">
+					Hand
+				</div>
+				<div id = "zoomTool">
+					Zoom
+				</div>
+				<div id = "exchangeColors">
+					Exchange
+				</div>
+				<div id = "colorSelection">
+					Color Selection
+				</div>
+				<div id = "screenView">
+					Screen View
+				</div>
+	        </div>
 
-		        <div id = "currentToolBar">
-		        </div>
-            </div>
-            <div id = "workspace">
-		        <div id = "toolBar" >
-					<div id = "selectionTool">
-					</div>
-					<div id = "marqueeTool">
-					</div>
-					<div id = "lassoTool">
-					</div>
-					<div id = "mWandTool">
-					</div>
-					<div id = "cropTool">
-					</div>
-					<div id = "sliceTool">
-					</div>
-					<div id = "sHealingTool">
-					</div>
-					<div id = "brushTool">
-					</div>
-					<div id = "cStampTool">
-					</div>
-					<div id = "historyTool">
-					</div>
-					<div id = "eraserTool">
-					</div>
-					<div id = "gradientTool">
-					</div>
-					<div id = "blurTool">
-					</div>
-					<div id = "dodgeTool">
-					</div>
-					<div id = "penTool">
-					</div>
-					<div id = "textTool">
-					</div>
-					<div id = "pSelectTool">
-					</div>
-					<div id = "shapeTool">
-					</div>
-					<div id = "eyedropTool">
-					</div>
-					<div id = "handTool">
-					</div>
-					<div id = "zoomTool">
-					</div>
-					<div id = "exchangeColors">
-					</div>
-					<div id = "colorSelection">
-					</div>
-					<div id = "screenView">
-					</div>
-		        </div>
-
-		        <div id = "artSpace" >
-
-		        </div>
+	        <div id = "artSpace" >
+				//boxdraw
+	        </div>
 
 
-		        <div id = "swatchPalette" >
+	        <div id = "swatchPalette" >
+				
+	        </div>
 
-		        </div>
+	        <div id = "navigationPalette" >
 
-		        <div id = "navigationPalette" >
+	        </div>
 
-		        </div>
+	        <div id = "layersPalette" >
 
-		        <div id = "layersPalette" >
-
-		        </div>
-            </div>
-        </center>
+	        </div>
+        </div>
+        
     </body>
 </html>

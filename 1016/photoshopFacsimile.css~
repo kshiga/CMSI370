@@ -1,8 +1,57 @@
 
-#menuBar{
-background: #eee;
+body{
+   border: 1px solid #fff;
+
 }
-/* style unordered list */
+#menuBar{
+    background-image: -moz-linear-gradient(top, #eee, #aaa);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(1, #aaa));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ul{
 padding: 0;
 margin: 0;
@@ -13,7 +62,6 @@ li.topitem{
 float: left;
 position: relative;
 padding: 5px;
-background: #eee;
 font: bold 11px Tahoma, Arial, Helvetica, sans-serif;
 color: #000;
 }
@@ -47,9 +95,17 @@ border-top: 1px solid #ccc;
 border-left: 1px solid #ccc;
 border-right: 1px solid #ccc;
 }
-#navbar li li a:hover {
+#navbar li li a:click {
 color: #000;
 background: #eee;
+}
+
+#toolBar{
+float: left;
+position: absolute;
+top: 60px;
+width: 30px;
+padding: 2px;
 }
 
 Read more at http://www.devarticles.com/c/a/HTML/Building-a-Drop-Down-Menu-with-Nested-HTML-Lists/2/#xKm3buBe1Ewfozx4.99 
