@@ -1,0 +1,45 @@
+.container{
+	width:320px;
+	height: 480px;
+	}
+#appArea{
+   border-top: 1px solid #000;
+   border-bottom: 1px solid #000;	
+   border-left:  1px solid #000;	
+   border-right: 1px solid #000;	
+	width:320px;
+	height: 480px;
+	background-color: #DEE1E1;
+}
+
+.pp-thumb{
+	width: 40px;
+	height: 40px;
+	overflow: hidden; 
+}
+
+.LandC{
+	background-color:#D6EFF1;
+}
+
+.entry{
+	border-top: 1px solid #000;
+   border-bottom: 1px solid #000;	
+   border-left:  1px solid #000;	
+   border-right: 1px solid #000;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #fff;
+	width: 290px;
+}
+
+#menuBar{
+	background-color: #3B5998;
+
+}
+
+#newOptions{
+	background-color: #fff;
+	}
+

@@ -1,0 +1,144 @@
+
+body{
+   border: 1px solid #000;
+   }
+#facsimile{
+	background-color: #A6A9A9;	
+	}
+
+#toolBar{
+	background-color: #BFC4C4;
+	border: 1px solid #000;
+	}
+
+#artSpace{
+	
+	padding-bottom: 150px;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	}
+	
+#canvas{
+	position: relative;
+	padding-top:300px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	height: 400px;
+	
+	}
+
+#paletteTop{
+		background-color: #999;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+	}
+
+#palettes{
+	background-color: #BFC4C4;
+	border: 1px solid #000;
+	}
+
+
+
+#navCanvas{
+	height: 75px;
+	width: 100px;
+	padding-left: : 10px;
+	background-color: #fff;
+	}
+
+.layer{
+	padding-bottom: 5px;
+	padding-top:5px;
+	border: 1px solid #000;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+/* style menu items */
+li.topitem{
+	float: left;
+	position: relative;
+	padding: 5px;
+	font: bold 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+/* position and hide drop-down menu */
+li.topitem ul{
+	display: none;
+	position: absolute;
+	top: 22px;
+	left: 0;
+	width: 150px;
+	background: #fff;
+	padding: 0px;
+	border-bottom: 1px solid #ccc;
+}
+li > ul{
+top: auto;
+left: auto;
+}
+/* display drop-down menu (add an 'over' class attribute to list items for IE */
+li:hover ul,li.over ul{
+display: block;
+}
+#navbar li li a {
+	display: block;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	padding: 5px;
+	height: 15px;
+	text-decoration: none;
+
+}
+#navbar li li a:click {
+	color: #000;
+	background: #A6A9A9;
+}
+
+#toolBar{
+	background-color: #BFC4C4
+	float: left;
+	position: absolute;
+	top: 60px;
+	width: 30px;
+	padding: 10px;
+}
+
+Read more at http://www.devarticles.com/c/a/HTML/Building-a-Drop-Down-Menu-with-Nested-HTML-Lists/2/#xKm3buBe1Ewfozx4.99 
