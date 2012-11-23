@@ -1,0 +1,44 @@
+/* Drawing area properties. */
+.drawing-area {
+    cursor: crosshair;
+    position: relative;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Box properties and their variants. */
+.box {
+    border: thin solid black;
+    cursor: move;
+    position: absolute;
+}
+
+.box-highlight {
+    box-shadow: 0px 0px 6px #88F;
+    -moz-box-shadow: 0px 0px 6px #88F;
+    -webkit-box-shadow: 0px 0px 6px #88F;
+}
+
+.box-reize {
+    border: thin solid yellow;
+    cursor: se-resize;
+    position: relative;
+
+}
+
+#elementResizable {
+    border: 1px solid #000000;
+    width: 300px;
+    height: 40px;
+    overflow: hidden;
+}
+#nwgrip, #negrip, #swgrip, #segrip, #ngrip, #egrip, #sgrip, #wgrip {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+#segrip {
+    right: -5px;
+    bottom: -5px;
+}
