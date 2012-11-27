@@ -17,8 +17,9 @@ var Boxes = {
             // We conclude drawing on either a mouseup or a mouseleave.
             .mouseup(this.endDrag)
             .mouseleave(this.endDrag);
-
-});
+// JD: The line below completely threw things off!  Make sure to
+//     test your code fully before pushing.
+//});
     },
 
     /**
@@ -29,7 +30,9 @@ var Boxes = {
         $(".drawing-area .box")
             .unbind("mousemove")
             .unbind("mouseleave");
-            .unbind():
+        // JD: Same with the line below.  It messes up parsing, and
+        //     with no argument it will not really do anything.
+//            .unbind():
     },
 
     /**
@@ -52,14 +55,14 @@ var Boxes = {
             // happening.
             Boxes.setupDragState();
         }
-    }
+    }, // JD: <--- Your code was missing this comma.
 
     resize: function(event){
         if (event.which === Boxes.LEFT_BUTTON){
             
 
         }
-    }
+    }, // JD: <--- Another missing comma.
 
     /**
      * Tracks a box as it is rubberbanded or moved across the drawing area.
