@@ -106,10 +106,9 @@ var Boxes = {
     },
 
     makeResizeable: function(event){
-       this
+
        .resizable({ 
            alsoResize: "#mirror" 
-           autoHide: true 
            handles: {' n s e w '}
 
        })
