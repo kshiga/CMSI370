@@ -27,7 +27,7 @@
 }
 
 
-#nwgrip #negrip, #swgrip, #segrip, #ngrip, #egrip, #sgrip, #wgrip {
+#nwgrip, #negrip, #swgrip, #segrip, #ngrip, #egrip, #sgrip, #wgrip {
     width: 10px;
     height: 10px;
     background-color: #ffffff;
