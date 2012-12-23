@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>jQuery UI Draggable - Default functionality</title>
+    <title>GPA Slider</title>
     <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <script src="slider.js"></script>
@@ -18,27 +18,29 @@
                 width: 40px;
                 height: 20px;
             } 
+            #reset {
+                border: 1px solid black;
+                width: 40px;
+                height: 20px;
+            } 
             #knob {
                 border: 1px solid black;
                 width: 5px;
                 height: 50px;
             } 
         </style> 
-   <!--<script>
-    $(function() {
-        $( "#knob" ).draggable({
-          axis: "x" 
-          });
-    });
-    </script>-->
+
 </head>
 <body>
  <div id="gpaSlider">
-<div id="knob" class="ui-widget-content">
-
-</div>
+<div id="knob"></div>
  </div>
-<div id = "gpaBox">0</div>
+<table>
+<tr>
+<td><div id = "gpaBox">0</div></td>
+<td><div id = "reset">Reset</div></td>
+</tr>
+</table>
  
 </body>
 </html>
