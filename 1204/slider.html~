@@ -10,7 +10,7 @@
         <style>
             #gpaSlider {
                 border: 1px solid black;
-                width: 200px;
+                width: 207px;
                 height: 50px;
             } 
             #gpaBox {
@@ -38,7 +38,7 @@
 
 </div>
  </div>
-<div id = "gpaBox"></div>
+<div id = "gpaBox">0</div>
  
 </body>
 </html>

@@ -2,7 +2,8 @@ $(function (){
 
 
 var report = function(a){
-    $("#gpaReport").html(a);
+     console.log("report reached");
+    $("#gpaBox").html(a);
 
 }
 
@@ -14,7 +15,7 @@ var report = function(a){
             var kCurrent = $("#knob")
             var position = kCurrent.position();
             console.log("Position: " + position.left);
-            var gpaCalc = ((position.left /200) *4);
+            var gpaCalc = (((position.left- 9) /200) *4);
             console.log("gpaCalc: " + gpaCalc);
             report(gpaCalc);
         }
