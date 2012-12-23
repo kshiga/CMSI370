@@ -3,22 +3,22 @@ $(function (){
 
 var report = function(a){
     $("#gpaReport").html(a);
-}
 
-var calculate = function() {
-    var position = this.position();
-    return ((position.left /200) *4);
 }
 
 
     $( "#knob" ).draggable({
         axis: "x", 
-        containment: "parent"
+        containment: "parent",
+        stop: function(evt, ui){          
+            var kCurrent = $("#knob")
+            var position = kCurrent.position();
+            console.log(position.left);
+            var gpaCalc = ((position.left /200) *4);
+            report();
+        }
     });
     
-    $("#knob").mouseup(
-          calculate()
-     );
 
 })
 

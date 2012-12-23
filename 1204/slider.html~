@@ -24,13 +24,13 @@
                 height: 50px;
             } 
         </style> 
-   <script>
+   <!--<script>
     $(function() {
         $( "#knob" ).draggable({
           axis: "x" 
           });
     });
-    </script>
+    </script>-->
 </head>
 <body>
  <div id="gpaSlider">
